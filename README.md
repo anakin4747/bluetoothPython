@@ -2,6 +2,8 @@
 
 I am following along the bluetooth tutorial for linux developers found at https://www.bluetooth.com/bluetooth-resources/bluetooth-for-linux/
 
+Link to dbus-python doxygen for easy access - https://dbus.freedesktop.org/doc/dbus-python/dbus.html
+
 ## Linux and Bluetooth Architecture
 
 The BLE stack has two major blocks, the Host and the Controller.

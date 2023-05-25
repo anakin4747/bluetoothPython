@@ -7,7 +7,7 @@ import dbus.service
 import dbus.mainloop.glib
 from gi.repository import GLib
 
-# Event loop initilaization
+# Event loop initialization
 mainloop = None
 
 # Create a class that is a subclass of dbus.service.Object
@@ -23,9 +23,9 @@ class Calculator(dbus.service.Object):
     # This indicates that the following function should be exposed as dbus method
     #   com.example.calculator_interface is the name of the dbus interface
     @dbus.service.method("com.example.calculator_interface",
-                        # The input signiture of the method has 2 int args
+                        # The input signature of the method has 2 int args
                          in_signature='ii',
-                        # The output signiture of the method has 1 int output
+                        # The output signature of the method has 1 int output
                          out_signature='i')
     # Decorated function
     def Add(self, a1, a2):
