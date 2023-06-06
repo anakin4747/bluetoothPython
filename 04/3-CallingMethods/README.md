@@ -26,3 +26,5 @@ GetAll returns a dictionary of all the supported properties.
 ## Condensed
 
 In the folder condensed the GetAll example is repeated but condensed to not save the proxy object as it is only called once to create an interface object.
+
+This version also exchanges a lot of hardcoded names for more readable variables.

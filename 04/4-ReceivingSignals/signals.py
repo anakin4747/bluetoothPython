@@ -30,6 +30,9 @@ dbus.mainloop.glib.DBusGMainLoop(set_as_default=True)
 bus = dbus.SystemBus()
 
 # Registering to receive the signal
+#   The dbus_interface could be anything we wish as it is an example.
+#   Same goes for signal_name as long as both of theses names match the args 
+#   in your dbus-send command
 bus.add_signal_receiver(greeting_signal_received,
                         dbus_interface = "com.example.greeting",
                         signal_name = "GreetingSignal")

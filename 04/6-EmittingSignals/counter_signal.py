@@ -43,7 +43,7 @@ dbus.mainloop.glib.DBusGMainLoop(set_as_default=True)
 # Connect to system bus
 bus = dbus.SystemBus()
 
-# Create a Counter instance called calc passing which bus to use
+# Create a Counter instance called counter passing which bus to use
 counter = Counter(bus)
 
 # Our own event loop which sends the signal every second
