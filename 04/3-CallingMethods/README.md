@@ -22,3 +22,7 @@ This script is nearly the same as the previous one except it also calls the GetA
 
     org.freedesktop.DBus.Properties
 GetAll returns a dictionary of all the supported properties.
+
+## Condensed
+
+In the folder condensed the GetAll example is repeated but condensed to not save the proxy object as it is only called once to create an interface object.

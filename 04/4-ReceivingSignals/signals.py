@@ -23,7 +23,7 @@ def greeting_signal_received(greeting):
     print(greeting)
 
 # When exporting objects or receiving signals we must attach to a main loop
-#   This line attachs the main loop
+#   This line attaches the main loop
 dbus.mainloop.glib.DBusGMainLoop(set_as_default=True)
 
 # Connect to system bus
